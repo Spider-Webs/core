@@ -1,5 +1,6 @@
 package hello.core.member;
 
+//회원서비스 구현 클래스
 public class MemberServiceImpl implements MemberService{
 
     private final MemberRepository memberRepository = new MemoryMemberRepository();
